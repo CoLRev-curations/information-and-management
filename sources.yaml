@@ -1,0 +1,10 @@
+- filename: DBLP.bib
+  search_type: FEED
+  source_name: Information & Management
+  source_url: ''
+  search_parameters: 
+    - endpoint: dblp
+      params: 
+        venue_key: journals/iam
+        journal_abbreviated: Inf. Manag.
+  comment: ''
