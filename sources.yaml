@@ -8,3 +8,11 @@
         venue_key: journals/iam
         journal_abbreviated: Inf. Manag.
   comment: ''
+- filename: pdfs.bib
+  search_type: PDFS
+  source_name: IM
+  source_url: pdfs
+  search_parameters: NA
+  comment: NA
+  outlet: journal=Information & Management
+  sub_dir_pattern: volume_number
