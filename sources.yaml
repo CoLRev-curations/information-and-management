@@ -4,9 +4,7 @@
   source_url: ''
   search_parameters: 
     - endpoint: dblp
-      params: 
-        venue_key: journals/iam
-        journal_abbreviated: Inf. Manag.
+      params: SCOPE venue_key='journals/iam' AND journal_abbreviated='Inf. Manag.'
   comment: ''
 - filename: pdfs.bib
   search_type: PDFS
