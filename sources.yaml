@@ -2,15 +2,28 @@
   search_type: FEED
   source_name: Information & Management
   source_url: ''
-  search_parameters: 
-    - endpoint: dblp
-      params: SCOPE venue_key='journals/iam' AND journal_abbreviated='Inf. Manag.'
+  search_parameters:
+  - endpoint: dblp
+    params: SCOPE venue_key='journals/iam' AND journal_abbreviated='Inf. Manag.'
+  last_sync: null
   comment: ''
+  outlet: null
+  sub_dir_pattern: null
 - filename: pdfs.bib
   search_type: PDFS
   source_name: IM
   source_url: pdfs
   search_parameters: NA
+  last_sync: null
   comment: NA
   outlet: journal=Information & Management
   sub_dir_pattern: volume_number
+- filename: CROSSREF.bib
+  search_type: FEED
+  source_name: CROSSREF
+  source_url: CROSSREF.bib
+  search_parameters: ''
+  last_sync: null
+  comment: ''
+  outlet: null
+  sub_dir_pattern: null
