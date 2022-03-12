@@ -22,7 +22,9 @@
   search_type: FEED
   source_name: CROSSREF
   source_url: CROSSREF.bib
-  search_parameters: ''
+  search_parameters:
+    - endpoint: crossref
+      params: SCOPE journal_issn='0378-7206'
   last_sync: null
   comment: ''
   outlet: null
