@@ -9,15 +9,6 @@
   comment: ''
   outlet: null
   sub_dir_pattern: null
-- filename: pdfs.bib
-  search_type: PDFS
-  source_name: IM
-  source_url: pdfs
-  search_parameters: NA
-  last_sync: null
-  comment: NA
-  outlet: journal=Information & Management
-  sub_dir_pattern: volume_number
 - filename: CROSSREF.bib
   search_type: FEED
   source_name: CROSSREF
@@ -29,3 +20,11 @@
   comment: ''
   outlet: null
   sub_dir_pattern: null
+- filename: pdfs.bib
+  search_type: FEED
+  source_name: IM
+  source_url: pdfs
+  search_parameters:
+  - endpoint: pdfs_directory
+    params: SCOPE path='pdfs' WITH journal='Information & Management' AND sub_dir_pattern='volume_number'
+  comment: NA
