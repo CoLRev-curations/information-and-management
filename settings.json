@@ -84,6 +84,9 @@
                 "similarity": 1,
                 "prep_package_endpoints": [
                     {
+                        "endpoint": "colrev_built_in.exclude_complementary_materials"
+                    },
+                    {
                         "endpoint": "colrev_built_in.exclude_non_latin_alphabets"
                     },
                     {
@@ -95,6 +98,9 @@
                 "name": "high_confidence",
                 "similarity": 0.99,
                 "prep_package_endpoints": [
+                    {
+                        "endpoint": "colrev_built_in.get_year_from_vol_iss_jour"
+                    },
                     {
                         "endpoint": "colrev_built_in.remove_urls_with_500_errors"
                     },
