@@ -4,12 +4,12 @@ This curated repository is based on the [ColRev](https://github.com/geritwagner/
 
 - It provides curated metadata and PDF hashes.
 - Additional metadata should be curated in derivative repositories
-- Corrections are welcome and should be provided using a pull-request (e.g. using the `colrev environment --apply_corrections` convenience function)
+- Corrections are welcome and should be provided using a pull-request (e.g. using the `colrev push -r` convenience function)
 
 To install run
 
 ```
-colrev environment --install geritwagner/information-and-management
+colrev env --install geritwagner/information-and-management
 ```
 
 <!-- TABLE_SUMMARY -->
@@ -49,16 +49,16 @@ colrev environment --install geritwagner/information-and-management
 |2021-58-1     |              13|              13|               -|              NO|
 |2020-57-8     |              22|              22|               -|              NO|
 |2020-57-7     |              17|              17|           *2*15|              NO|
-|2020-57-6     |              19|              19|           *7*13|              NO|
+|2020-57-6     |              19|              19|           *6*14|              NO|
 |2020-57-5     |              16|              16|           *3*13|              NO|
 |2020-57-4     |              10|              10|            *1*7|              NO|
 |2020-57-3     |              10|              10|           *1*10|              NO|
-|2020-57-2     |              12|              12|            *2*9|              NO|
+|2020-57-2     |              12|              12|           *2*10|              NO|
 |2020-57-1     |               9|               9|            *1*9|              NO|
 |2019-57-7     |               -|               -|             *1*|              NO|
 |2019-57-5     |               -|               -|             *1*|              NO|
 |2019-57-4     |               -|               -|             *3*|              NO|
-|2019-57-2     |               -|               -|             *2*|              NO|
+|2019-57-2     |               -|               -|             *1*|              NO|
 |2019-56-8     |              10|              10|            *2*9|              NO|
 |2019-56-7     |              10|              10|            *2*9|              NO|
 |2019-56-6     |           *1*10|              10|            *3*7|              NO|
