@@ -40,11 +40,8 @@
             "filename": "data/search/CROSSREF.bib",
             "search_type": "TOC",
             "search_parameters": {
-                "scope": {
-                    "issn": [
-                        "0378-7206"
-                    ]
-                }
+                "url": "https://api.crossref.org/journals/0378-7206/works",
+                "version": "1.0.0"
             },
             "comment": ""
         },
@@ -66,13 +63,11 @@
     "search": {
         "retrieve_forthcoming": false
     },
-    "load": {},
     "prep": {
         "fields_to_keep": [],
         "prep_rounds": [
             {
                 "name": "prep",
-                "similarity": 0.8,
                 "prep_package_endpoints": [
                     {
                         "endpoint": "colrev.colrev_curation"
