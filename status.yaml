@@ -22,6 +22,7 @@ currently:
   rev_synthesized: 2026
 md_duplicates_removed: 4433
 nr_curated_records: 3094
+nr_incomplete: 2072
 overall:
   md_imported: 4269
   md_prepared: 3722
@@ -32,6 +33,8 @@ overall:
   pdf_prepared: 2026
   rev_excluded: 0
   rev_included: 2026
+  rev_prescreen: 3094
   rev_prescreen_excluded: 613
   rev_prescreen_included: 3094
+  rev_screen: 2026
   rev_synthesized: 2026
